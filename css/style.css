@@ -139,7 +139,7 @@ nav ul li a i {
 /* Hero Section(Main) */
 
 .hero-banner {
-    background-image: url("/images/blog-one-cover.jpg");
+    background-image: url("../images/blog-one-cover.jpg");
     background-color: black;
     background-position: 0 70%;
     background-repeat: no-repeat;
