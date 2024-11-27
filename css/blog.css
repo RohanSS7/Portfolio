@@ -343,6 +343,20 @@ img {
     cursor: pointer;
 }
 
+.click-here {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+.click-here:hover,
+.click-here:active {
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
 /* MEDIA */
 
 @media (min-width: 480px) {
