@@ -143,6 +143,11 @@ nav ul li a i {
     margin-left: 0.3rem;
 }
 
+ul,
+li {
+    font-size: 1em;
+}
+
 /* hero section (main) */
 
 .hero-banner {
@@ -372,6 +377,16 @@ img {
         width: 2em; 
         height: 2em;
     }
+
+    .profile-pic {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .about-section {
+        padding:0 4.25em;
+    }
+
 }
 
 @media (min-width:768px) {
@@ -391,7 +406,7 @@ img {
     .about-section {
         display: flex;
         gap: 1em;
-        padding-bottom: 1em;
+        padding: 1em 0;
     }
 
     .about-section h2 {
